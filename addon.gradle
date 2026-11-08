@@ -1,0 +1,17 @@
+apply plugin: 'org.jetbrains.kotlin.jvm'
+apply plugin: 'com.github.gmazzo.buildconfig'
+
+buildConfig {
+    packageName("com.fywinds.tc4researchsolver")
+    buildConfigField('String', 'MODVER', "\"${project.modVersion}\"")
+    useKotlinOutput { topLevelConstants = true }
+}
+
+afterEvaluate {
+    // RFG doesn't configure useJUnitPlatform(); without it Gradle uses the JUnit 4
+    // runner and can't discover JUnit 5 tests. Gradle 9 then fails with
+    // failOnNoDiscoveredTests. Configure it explicitly here.
+    tasks.named('test').configure {
+        useJUnitPlatform()
+    }
+}

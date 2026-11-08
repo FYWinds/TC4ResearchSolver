@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "${modId}",
+    "name": "${modName}",
+    "description": "Client-only: solves the Thaumcraft 4 research note in the research table with one button.",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "FYWinds"
+    ],
+    "credits": "Azanor (Thaumcraft), Thaumcraft Research Tweaks authors",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+      "Forgelin",
+      "Thaumcraft"
+    ]
+  }
+]

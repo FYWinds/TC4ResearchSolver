@@ -1,0 +1,14 @@
+tc4researchsolver.button.solve=Solve
+tc4researchsolver.button.syncing=Syncing...
+tc4researchsolver.chat=[Research Solver] %s
+tc4researchsolver.msg.noNote=There is no research note in the table.
+tc4researchsolver.msg.alreadyComplete=This research note is already complete.
+tc4researchsolver.msg.missingAspects=Not enough aspects, missing %s. Nothing was sent.
+tc4researchsolver.msg.missingInk=Not enough ink: %s placements needed, %s left in the scribing tools. Nothing was sent.
+tc4researchsolver.msg.noRoute=There is no way to connect every aspect on this note. Nothing was sent.
+tc4researchsolver.msg.uncovered=Safety check failed (%s). Nothing was sent.
+tc4researchsolver.msg.done=Research note complete (%s combinations, %s placements).
+tc4researchsolver.msg.guiClosed=Stopped: the research table was closed.
+tc4researchsolver.msg.noteChanged=Stopped: the research note was removed or changed.
+tc4researchsolver.msg.inkOut=Stopped: the scribing tools ran out of ink.
+tc4researchsolver.msg.notComplete=The note is still incomplete after %s attempts. Stopped.

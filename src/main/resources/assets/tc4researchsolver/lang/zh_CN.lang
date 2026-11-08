@@ -1,0 +1,14 @@
+tc4researchsolver.button.solve=一键研究
+tc4researchsolver.button.syncing=同步中...
+tc4researchsolver.chat=[研究助手] %s
+tc4researchsolver.msg.noNote=研究台中没有研究笔记。
+tc4researchsolver.msg.alreadyComplete=这份研究笔记已经完成。
+tc4researchsolver.msg.missingAspects=要素不足，缺 %s。未发送任何操作。
+tc4researchsolver.msg.missingInk=墨水不足：需要放置 %s 次，书写工具只剩 %s 次。未发送任何操作。
+tc4researchsolver.msg.noRoute=这份笔记无法连通所有要素。未发送任何操作。
+tc4researchsolver.msg.uncovered=安全检查未通过（%s）。未发送任何操作。
+tc4researchsolver.msg.done=研究笔记已完成（组合 %s 次，放置 %s 次）。
+tc4researchsolver.msg.guiClosed=已停止：研究台界面已关闭。
+tc4researchsolver.msg.noteChanged=已停止：研究笔记被取出或已改变。
+tc4researchsolver.msg.inkOut=已停止：书写工具的墨水用完了。
+tc4researchsolver.msg.notComplete=尝试 %s 次后笔记仍未完成，已停止。
