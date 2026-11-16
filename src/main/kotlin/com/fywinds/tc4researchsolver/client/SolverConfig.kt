@@ -12,6 +12,8 @@ object SolverConfig {
     private const val CATEGORY = "solver"
     private val log = LogManager.getLogger("TC4ResearchSolver")
 
+    var autoSolve: Boolean = false
+        private set
     var weights: AspectWeights = AspectWeights.parse(AspectWeights.DEFAULT_ENTRIES).first
         private set
     var stockDiscount: Double = 0.5
@@ -24,6 +26,11 @@ object SolverConfig {
     fun load(file: File) {
         val config = Configuration(file)
         config.load()
+        autoSolve = config.getBoolean(
+            "autoSolve", CATEGORY, false,
+            "Start solving on its own, as if Solve were pressed, when the research table shows an unsolved research " +
+                "note. Each note is started at most once: after a failed or stopped run, press Solve to try again.",
+        )
         val weightLines = config.getStringList(
             "weights", CATEGORY, AspectWeights.DEFAULT_ENTRIES.toTypedArray(),
             "Aspect weights as tag=weight, lower is cheaper. Tags match case-insensitively; " +
