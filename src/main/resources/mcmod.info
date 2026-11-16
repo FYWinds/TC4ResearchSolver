@@ -5,12 +5,12 @@
     "description": "Client-only: solves the Thaumcraft 4 research note in the research table with one button.",
     "version": "${modVersion}",
     "mcversion": "${minecraftVersion}",
-    "url": "",
+    "url": "https://github.com/FYWinds/TC4ResearchSolver",
     "updateUrl": "",
     "authorList": [
       "FYWinds"
     ],
-    "credits": "Azanor (Thaumcraft), Thaumcraft Research Tweaks authors",
+    "credits": "Azanor (Thaumcraft), cdj68765 (TC4AutoResearch), Telan and Think (Thaumcraft Research Tweaks), Glease (TC4Tweaks), GTNH Chinese wiki (aspect weights), GT New Horizons",
     "logoFile": "",
     "screenshots": [],
     "dependencies": [

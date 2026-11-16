@@ -31,7 +31,7 @@ object Aspects {
         "machina" to listOf("motus", "instrumentum"), "vinculum" to listOf("motus", "perditio"),
     )
 
-    /** Aspects added by mods on the ETO pack (GTNH 2.9.0), with their real tags. */
+    /** Aspects added by mods in GTNH 2.9.0, with their real tags. */
     private val GTNH_EXTRAS = linkedMapOf(
         // gregtech.common.GTThaumcraftCompat
         "strontio" to listOf("cognitio", "perditio"), "nebrisum" to listOf("perfodio", "lucrum"),
